@@ -1,73 +1,59 @@
 * {
-    margin: 0
-}
-
-h1#logo {
-    margin-top: 20px;
-    margin-bottom: 2px;
+  margin: 0;
 }
 
 body {
-    background: #355664;
-    color: #000;
-    font-family: Arial, sans-serif;
-    /*Гротеск или шрифты без засечек. Основной тип 
-                                шрифтов на сайтах*/
-    font-size: 14px;
-}
-
-container,
-header,
-nav,
-aside,
-content,
-footer {
-    display: block;
-}
-
-body {
-    background: #355664;
-
-
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
 }
 
 header {
-
-    width: 1200px;
-    height: 105px;
-    text-align: left;
-
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #fff;
 }
 
-container {
-
-    margin: auto auto;
-    text-align: center;
-    width: 1200px;
-    height: 400px;
+.container {
+  margin: 20px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-nav {
-    background: #131a18;
-    width: 1200px;
-    height: 5px;
-    text-align: left;
+.box {
+  width: 48%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
 }
 
-p2 {
-    background: red;
-    width: 1200px;
-    height: 4px;
-
+.box h2 {
+  margin-top: 0;
 }
 
-
-#clear {
-    clear: both;
+.box p {
+  margin-bottom: 0;
 }
 
 footer {
-    width: 1200px;
-    height: 40px;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.line {
+  border-top: 1px solid #fff;
+  margin: 20px 0;
 }
