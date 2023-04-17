@@ -115,16 +115,9 @@ p {
   text-align: center;
 }
 
-@media screen and (min-device-width: 576px) and (max-device-width: 768px) {
-  span {
-    float: none;
-    width: 100%;
-  }
-}
-
-@media screen and (min-device-width: 576px) and (max-device-width: 768px) {
-  span {
-    float: none;
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  nav {
+    float: right;
     width: 100%;
   }
 }

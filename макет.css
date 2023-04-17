@@ -1,0 +1,55 @@
+*{margin: 0}
+
+h1#logo{
+margin-top: 20px;
+margin-bottom: 2px ;
+}
+body {
+    background: #FFF;
+    color: #000;
+    font-family: Arial, sans-serif;  /*Гротеск или шрифты без засечек. Основной тип 
+                                шрифтов на сайтах*/
+    font-size: 14px;
+}
+container, header, nav, aside, content, footer
+{display: block;}
+body {
+    background: #06a374;
+    
+ 
+}
+
+header {
+    background: #06a374;
+    width: 1200px;
+    height: 105px;
+    text-align: left;
+  
+}
+
+container {
+    background: #06a374;
+    margin: auto auto;
+    text-align: center;
+    width: 1200px;
+    height: 400px;
+}
+
+nav { background: #131a18;
+    width: 1200px;
+    height: 5px;
+    text-align: left;
+}
+
+
+
+#clear {
+    clear: both;
+}
+
+footer {
+   background: #06a374;
+   width: 1200px;
+   height: 40px;
+   text-align: center;
+}
